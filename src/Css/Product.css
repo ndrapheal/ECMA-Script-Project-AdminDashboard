@@ -1,0 +1,53 @@
+/* button */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    /* Màu nền */
+    color: white;
+    /* Màu chữ */
+    border: none;
+    /* Không viền */
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    /* Màu khi hover */
+    color: white;
+    /* Giữ màu chữ */
+}
+
+.btn-sm {
+    padding: 4px 8px;
+    /* Giảm kích thước padding */
+    font-size: 12px;
+    /* Font nhỏ hơn */
+}
+
+.btn .lni {
+    font-size: 16px;
+    /* Kích thước icon */
+    margin-right: 8px;
+    /* Khoảng cách giữa icon và text */
+}
+
+td .btn+.btn {
+    margin-left: 8px;
+    /* Khoảng cách giữa hai nút */
+}
+
+td a {
+    text-decoration: none;
+    /* Xóa gạch chân link */
+    color: inherit;
+    /* Lấy màu từ nút */
+}
